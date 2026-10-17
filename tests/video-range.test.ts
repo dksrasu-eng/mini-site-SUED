@@ -7,6 +7,16 @@ test("tamanho de fallback corresponde ao WebM publicado", async () => {
   assert.equal((await stat("public/videos/mini-vsl.webm")).size, VIDEO_BYTES);
 });
 
+test("ASSETS sem Content-Length ainda entrega intervalo com HTTP 206", async () => {
+  const response = await onRequest({
+    request: new Request("https://example.com/videos/mini-vsl.webm", { headers: { Range: "bytes=1-2" } }),
+    env: { ASSETS: { fetch: async () => new Response(new Uint8Array([0, 1, 2, 3])) } },
+  });
+  assert.equal(response.status, 206);
+  assert.equal(response.headers.get("Content-Range"), `bytes 1-2/${VIDEO_BYTES}`);
+  assert.deepEqual(new Uint8Array(await response.arrayBuffer()), new Uint8Array([1, 2]));
+});
+
 const bytes = new Uint8Array(100).map((_, index) => index);
 async function fetchVideo(range?: string, method = "GET", ifRange?: string) {
   const request = new Request("https://example.com/videos/mini-vsl.webm", { method, headers: { ...(range ? { Range: range } : {}), ...(ifRange ? { "If-Range": ifRange } : {}) } });

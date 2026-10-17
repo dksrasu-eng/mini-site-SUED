@@ -1,5 +1,7 @@
 # SUED | Mini site de bio
 
+Site publicado: https://mini-site-sued.pages.dev/ · Repositório: https://github.com/dksrasu-eng/mini-site-SUED. Configuração e verificação em `DEPLOYMENT.md`.
+
 Mini site de bio com temas claro e escuro em português para SUED, com WhatsApp, portfólio configurável e apresentação em vídeo. Revisão V2 inspirada na concentração de identidade, links e vídeo da referência Luna. No mobile, uma coluna compacta; no desktop, introdução ao lado da bio. O retrato compartilha o fundo com os links, com formas orgânicas e detalhes de colagem, sem moldura ou setas. Projeto local em Next.js App Router, TypeScript, Tailwind CSS, Motion e Lucide. Geist Sans fica hospedada no próprio projeto.
 
 ## Rodar

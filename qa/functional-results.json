@@ -1,11 +1,11 @@
 {
-  "base": "http://127.0.0.1:3002",
-  "timestamp": "2026-10-17T19:19:28.499Z",
+  "base": "https://mini-site-sued.pages.dev",
+  "timestamp": "2026-10-17T19:28:33.246Z",
   "checks": [
     "Foto real da Sued carrega com alt, dimensões naturais e HTTP 200.",
     "Portfólio pendente: abre diálogo, foco inicial, contenção Tab, Escape, restauração do foco, link WhatsApp e axe sem violações.",
     "Dois CTAs públicos têm número confirmado, mensagem exata, target e rel corretos. Não foi enviada mensagem.",
-    "WebM real: inicia após o play, VP9 1280×720, duração ~48s, controles/pausa/seek e entrega parcial HTTP206 funcionando no quadro arredondado.",
+    "WebM real: inicia após o play, VP9 1280×720, duração ~48s, controles/pausa/seek funcionando no quadro arredondado. Arquivo entregue com HTTP 206.",
     "Instagram usa o perfil exato @sued.sites em nova aba com noopener, sem diálogo de pendência.",
     "Axe: 23 regras passaram, zero violações detectadas na página.",
     "Skip link alcançável por teclado e foco transferido para main.",
