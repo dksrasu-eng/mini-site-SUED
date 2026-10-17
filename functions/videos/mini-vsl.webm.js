@@ -1,5 +1,7 @@
 // Pages serves static assets with HTTP 200 even for Range requests.
 // Only this video uses a Function; the rest of the site stays static.
+// ASSETS may omit Content-Length inside Workers; verify this against the file.
+export const VIDEO_BYTES = 7466337;
 export async function onRequest({ request, env }) {
   if (!["GET", "HEAD"].includes(request.method)) {
     return new Response(null, { status: 405, headers: { Allow: "GET, HEAD" } });
@@ -8,7 +10,8 @@ export async function onRequest({ request, env }) {
   if (asset.status !== 200) return asset;
   const headers = new Headers(asset.headers);
   headers.set("Accept-Ranges", "bytes");
-  const size = Number(headers.get("Content-Length"));
+  const size = Number(headers.get("Content-Length")) || VIDEO_BYTES;
+  headers.set("Content-Length", String(size));
   const range = request.headers.get("Range");
   const ifRange = request.headers.get("If-Range");
   const match = range?.match(/^bytes=(\d*)-(\d*)$/);

@@ -1,6 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { onRequest } from "../functions/videos/mini-vsl.webm.js";
+import { stat } from "node:fs/promises";
+import { onRequest, VIDEO_BYTES } from "../functions/videos/mini-vsl.webm.js";
+
+test("tamanho de fallback corresponde ao WebM publicado", async () => {
+  assert.equal((await stat("public/videos/mini-vsl.webm")).size, VIDEO_BYTES);
+});
 
 const bytes = new Uint8Array(100).map((_, index) => index);
 async function fetchVideo(range?: string, method = "GET", ifRange?: string) {
