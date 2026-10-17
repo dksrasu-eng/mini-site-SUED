@@ -1,0 +1,10 @@
+{
+  "source_name": "bio site mini vsl teste1.mp4",
+  "source_bytes": 90787971,
+  "output": "public/videos/mini-vsl.webm",
+  "output_bytes": 7466337,
+  "codec": "VP9 / Opus",
+  "width": 1280,
+  "crf": 30,
+  "seconds_to_convert": 52.1
+}

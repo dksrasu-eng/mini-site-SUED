@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nodryx"
+  short_description: "Pesquisa referências, gera e audita sites com IA"
+  default_prompt: "Use nodryx para pesquisar referências reais, entrevistar o usuário, criar um design system enxuto, gerar assets quando a ferramenta estiver disponível, implementar um site responsivo e testar funcionamento e acessibilidade."

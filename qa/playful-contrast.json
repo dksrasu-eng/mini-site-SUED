@@ -1,0 +1,90 @@
+[
+  {
+    "label": "Texto claro",
+    "foreground": "#201C1B",
+    "background": "#F6F4EE",
+    "ratio": 15.357,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Secundário claro",
+    "foreground": "#625D58",
+    "background": "#F6F4EE",
+    "ratio": 5.919,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Etiqueta verde",
+    "foreground": "#344329",
+    "background": "#E1EABA",
+    "ratio": 8.42,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Etiqueta foto",
+    "foreground": "#625044",
+    "background": "#FFF5E7",
+    "ratio": 7.078,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Monograma grande",
+    "foreground": "#A9361D",
+    "background": "#F9B79C",
+    "ratio": 3.799,
+    "minimum": 3,
+    "status": "PASS"
+  },
+  {
+    "label": "Título claro grande",
+    "foreground": "#D63A13",
+    "background": "#F6F4EE",
+    "ratio": 4.268,
+    "minimum": 3,
+    "status": "PASS"
+  },
+  {
+    "label": "Texto escuro",
+    "foreground": "#FAFAF9",
+    "background": "#0B0B0D",
+    "ratio": 18.828,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Secundário escuro",
+    "foreground": "#B4B0B8",
+    "background": "#0B0B0D",
+    "ratio": 9.217,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Pequeno acento escuro",
+    "foreground": "#FF805F",
+    "background": "#0B0B0D",
+    "ratio": 7.964,
+    "minimum": 4.5,
+    "status": "PASS"
+  },
+  {
+    "label": "Título escuro",
+    "foreground": "#FF6C46",
+    "background": "#0B0B0D",
+    "ratio": 7.009,
+    "minimum": 3,
+    "status": "PASS"
+  },
+  {
+    "label": "CTA grande",
+    "foreground": "#FFFFFF",
+    "background": "#FF4B1F",
+    "ratio": 3.345,
+    "minimum": 3,
+    "status": "PASS"
+  }
+]

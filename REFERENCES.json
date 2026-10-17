@@ -1,0 +1,48 @@
+{
+  "references": [
+    {
+      "reference_id": "SEARCH-001",
+      "query": "designer link in bio website design",
+      "search_url": "https://br.pinterest.com/search/pins/?q=designer%20link%20in%20bio%20website%20design",
+      "pin_url": null,
+      "original_source_url": null,
+      "visual_status": "not_verified",
+      "image_evidence": null,
+      "license": "unknown",
+      "used_as": "search_query_only",
+      "observations": [],
+      "transferable_patterns": [],
+      "status": "blocked_login"
+    }
+  ],
+  "web_references": [
+    {
+      "reference_id": "WEB-01",
+      "url": "https://luna-bio-studio.sued09.chatgpt.site/",
+      "visual_status": "inspected_pixels",
+      "image_evidence": "CUA screenshot tab 2, conversation 2026-10-16",
+      "used_as": "visual_inspiration_only",
+      "license": "unknown",
+      "author_attribution": "Luna / site fornecido pelo usuário"
+    },
+    {
+      "reference_id": "WEB-02",
+      "url": "https://21st.dev/@felipemenezes098/components/hero-04",
+      "visual_status": "inspected_pixels",
+      "image_evidence": "CUA screenshot tab 5, conversation 2026-10-16; CUA tab 9 light preview after actual theme toggle",
+      "used_as": "visual_inspiration_only",
+      "license": "unknown",
+      "author_attribution": "felipemenezes098"
+    },
+    {
+      "reference_id": "WEB-03",
+      "url": "https://www.aura.build/browse/components",
+      "visual_status": "inspected_pixels",
+      "image_evidence": "CUA screenshot tab 4, conversation 2026-10-16",
+      "used_as": "visual_inspiration_only",
+      "license": "unknown",
+      "author_attribution": "catálogo de autores Aura; sem assets reutilizados"
+    }
+  ],
+  "validator_scope": "O utilitário fornecido valida references como Pins. Fontes web foram separadas em web_references para não inventar URLs de Pins."
+}

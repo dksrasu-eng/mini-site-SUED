@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-10-16T22:59:30.259Z",
+  "base": "http://127.0.0.1:3000",
+  "checks": [
+    "Primeira visita usa claro, inclusive quando o sistema prefere escuro.",
+    "Alternância funciona pelo teclado; escuro e theme-color sobrevivem a reload.",
+    "Escolha sincroniza entre duas abas da mesma origem.",
+    "Claro e escuro: cinco viewports, alvos >=44px, contato na primeira tela mobile, sem overflow e sem violações axe; diálogo e player WebM também verificados.",
+    "Tema salvo é aplicado pelo bootstrap mesmo com os bundles JavaScript bloqueados, antes da hidratação.",
+    "Storage bloqueado: seleção funciona na sessão; reload usa o claro padrão sem erro.",
+    "Sem JavaScript: tema claro legível, contato disponível e seletor inativo oculto."
+  ],
+  "results": [
+    {
+      "theme": "light",
+      "width": 320,
+      "pageHeight": 1107,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 599.640625,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 375,
+      "pageHeight": 1107,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 595.921875,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "pageHeight": 1041,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 495,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "pageHeight": 1123,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 512,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "pageHeight": 1123,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 512,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "pageHeight": 1107,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 599.640625,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 375,
+      "pageHeight": 1107,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 595.921875,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "pageHeight": 1041,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 495,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "pageHeight": 1123,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 512,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "pageHeight": 1123,
+      "overflow": false,
+      "themeTargetHeights": [
+        44,
+        44
+      ],
+      "contactBottom": 512,
+      "axeViolations": 0,
+      "incompleteRuleIds": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "errors": []
+}

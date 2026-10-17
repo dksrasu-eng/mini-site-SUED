@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "componentes TSX: sem travessões, setas e antigas linhas decorativas",
+  "files": [
+    "src\\app\\apple-icon.tsx",
+    "src\\app\\layout.tsx",
+    "src\\app\\opengraph-image.tsx",
+    "src\\app\\page.tsx",
+    "src\\components\\action-link.tsx",
+    "src\\components\\brand.tsx",
+    "src\\components\\motion-provider.tsx",
+    "src\\components\\portrait.tsx",
+    "src\\components\\theme-switch.tsx",
+    "src\\components\\vsl-player.tsx"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "project_name": "SUED mini site de bio",
+  "niche": "designer e desenvolvimento web, mini bio Instagram",
+  "mode": "refinar",
+  "cta": {
+    "label": "Vamos criar seu site",
+    "target": "https://wa.me/5575981475240",
+    "connected": true
+  },
+  "fonts": [
+    "Geist Sans"
+  ],
+  "design_tokens": {
+    "light": {
+      "background": "#F6F4EE",
+      "surface": "#FFFDFA",
+      "text": "#201C1B",
+      "muted": "#625D58",
+      "accent_text": "#B93616"
+    },
+    "dark": {
+      "background": "#0B0B0D",
+      "surface": "#19181B",
+      "text": "#FAFAF9",
+      "muted": "#B4B0B8",
+      "accent_text": "#FF805F"
+    },
+    "primary": "#FF4B1F"
+  },
+  "pinterest_access": "blocked_login",
+  "image_analysis": "done_public_web_references",
+  "site_qa": "pass_local_production",
+  "reference_count_target": 3,
+  "original_transformations": [
+    "perfil e links sobre o mesmo fundo, sem painel externo",
+    "retrato com encontro suave ao fundo, nome sobreposto e sem moldura",
+    "formas orgânicas e linha pontilhada originais, sem setas",
+    "botões arredondados com sombra deslocada",
+    "temas claro e escuro com preferência persistente"
+  ],
+  "theme": {
+    "default": "light",
+    "available": [
+      "light",
+      "dark"
+    ],
+    "persistence": "localStorage: sued-theme-v1",
+    "cross_tab_sync": true
+  },
+  "qa_evidence": [
+    "qa/themes/results.json",
+    "qa/playful-contrast.json",
+    "qa/functional-results.json",
+    "qa/photo-source.json",
+    "qa/video-conversion.json",
+    "qa/particles/results.json"
+  ],
+  "design_revision": "real_photo_natural_copy_no_decorative_strokes",
+  "photo": {
+    "src": "/images/sued.jpeg",
+    "origin": "user_provided",
+    "pixel_editing": false,
+    "presentation": "css_crop_soft_edges",
+    "alt": "Sued sorrindo"
+  },
+  "video": {
+    "url": "/videos/mini-vsl.webm",
+    "poster": "/images/vsl-poster.jpg",
+    "format": "webm",
+    "video_codec": "VP9",
+    "audio_codec": "Opus",
+    "size_bytes": 7466337,
+    "resolution": "1280x720",
+    "duration_seconds": 47.725,
+    "activation": "user_play",
+    "captions": "not_supplied"
+  },
+  "instagram": {
+    "url": "https://www.instagram.com/sued.sites/",
+    "connected": true
+  },
+  "name_effect": {
+    "kind": "canvas_particles",
+    "scope": "nome Sued no retrato",
+    "source": "exemplo enviado pelo usuário, adaptado ao projeto",
+    "reduced_motion": "static_text",
+    "fallback": "semantic_html",
+    "theme_aware": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-16T23:03:10.712Z",
+  "base": "http://127.0.0.1:3000",
+  "duringDifference": 12.3357768145504,
+  "afterDifference": 0.23459544450110487,
+  "matchingInkPixels": 2118,
+  "checks": [
+    "Canvas muda de pixels ao aproximar o cursor; o nome retorna e o RAF entra em repouso depois da saída.",
+    "Troca de tema reconstrói as partículas na cor do texto, sem outra família tipográfica.",
+    "Preferência de movimento reduzido mostra o texto estático; resize para 320px mantém o nome e não cria overflow.",
+    "Fora da tela, a animação pausa; ao voltar, retoma e repousa.",
+    "Clique no Instagram abre exatamente o link fornecido em nova aba; navegação interceptada no teste, sem login ou verificação do perfil.",
+    "Toque em 375px não bloqueia a página e as partículas voltam à palavra.",
+    "Sem JavaScript ou canvas disponível, o nome e o link Instagram continuam no HTML."
+  ],
+  "errors": []
+}

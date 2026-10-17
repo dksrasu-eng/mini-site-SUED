@@ -1,0 +1,15 @@
+{
+  "scope": "C:\\Users\\dksra\\OneDrive\\Documentos\\ChatGPT\\meu link de bio\\qa\\rendered",
+  "html_files": 1,
+  "css_files": 1,
+  "explicit_font_families": {
+    "geistsans": [
+      "style-0.css"
+    ],
+    "geistsans fallback": [
+      "style-0.css"
+    ]
+  },
+  "issues": [],
+  "caveat": "Heurística para HTML/CSS estático. Não substitui browser, WCAG, testes de CTA ou QA manual."
+}

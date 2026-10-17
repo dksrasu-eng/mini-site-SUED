@@ -1,0 +1,13 @@
+{
+  "project_name": "NODRYX demo clínica",
+  "niche": "clinica estetica premium",
+  "mode": "test",
+  "cta": {"label": "Agendar avaliação", "target": "https://example.com/contato", "connected": false},
+  "fonts": ["Inter", "Space Grotesk"],
+  "design_tokens": {"background": "#070709", "surface": "#111116", "text": "#F7F7FA", "primary": "#7C3CFF"},
+  "pinterest_access": "not_run",
+  "image_analysis": "not_run",
+  "site_qa": "not_run",
+  "reference_count_target": 5,
+  "original_transformations": ["hero inedita", "arte original", "nova arquitetura de secoes"]
+}
