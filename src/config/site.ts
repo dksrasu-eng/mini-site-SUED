@@ -18,8 +18,8 @@ export const siteConfig = {
   },
   portfolioUrl: "",
   instagramUrl: "https://www.instagram.com/sued.sites/",
-  /** URL pública final, incluindo https://. Deixe vazio até confirmar o domínio. */
-  siteUrl: "",
+  /** URL pública final, incluindo https://. */
+  siteUrl: "https://mini-site-sued.pages.dev",
   photo: {
     src: "/images/sued.jpeg",
     alt: "Sued sorrindo",
