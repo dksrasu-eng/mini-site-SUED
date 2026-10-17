@@ -94,7 +94,7 @@ Configure as legendas do vídeo quando houver fala, portfólio e `siteUrl`; faç
 
 As dependências de runtime não apresentaram vulnerabilidades no `npm audit --omit=dev` executado durante a entrega. A árvore de lint tem um aviso de segurança transitivo em `braces` sem correção publicada na data; detalhes no QA_REPORT.md. Não aplique `npm audit fix --force`, pois a proposta automática rebaixa o pacote de lint para uma versão incompatível com a stack escolhida.
 
-Não há analytics, rastreadores, formulário, backend de leads ou integração paga. A entrega não inclui publicação nem alteração de domínio.
+Não há analytics, rastreadores, formulário, backend de leads ou integração paga. A publicação usa Cloudflare Pages; nenhum domínio próprio foi alterado.
 
 ## Documentação e direitos
 
