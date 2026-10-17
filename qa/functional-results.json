@@ -1,6 +1,6 @@
 {
-  "base": "http://127.0.0.1:3000",
-  "timestamp": "2026-10-16T22:59:26.176Z",
+  "base": "http://127.0.0.1:3002",
+  "timestamp": "2026-10-17T19:19:28.499Z",
   "checks": [
     "Foto real da Sued carrega com alt, dimensões naturais e HTTP 200.",
     "Portfólio pendente: abre diálogo, foco inicial, contenção Tab, Escape, restauração do foco, link WhatsApp e axe sem violações.",
@@ -11,7 +11,7 @@
     "Skip link alcançável por teclado e foco transferido para main.",
     "Sem overflow e sem títulos cortados em 320/360/375/390/430/768/1024/1440; CTA >=44px e texto grande em negrito; axe sem violações em todas as larguras.",
     "Reflow equivalente a desktop 1280px em 200%: viewport CSS 640px sem overflow. Zoom nativo manual não medido.",
-    "OG 1200×630 e Apple icon respondem HTTP 200; domínio público ainda pendente.",
+    "OG 1200×630 e Apple icon respondem HTTP 200 com imagem PNG.",
     "Foto bloqueada no teste: fallback aparece e não deixa imagem quebrada.",
     "Sem JavaScript: proposta e WhatsApp continuam disponíveis pelo HTML renderizado."
   ],

@@ -26,6 +26,8 @@ O projeto usa `output: "export"`. O comando `npm run build` gera o site completo
 
 Na integração com GitHub, use a branch `main`, o comando `npm run build`, a pasta de saída `out` e Node.js 24. Foto, vídeo e fontes são publicados junto com o site. Os temas e o efeito de partículas funcionam no navegador.
 
+A Function em `functions/videos/mini-vsl.webm.js` entrega intervalos HTTP 206 do vídeo para permitir avançar e voltar na reprodução. A rota é limitada a esse arquivo por `public/_routes.json`; os outros arquivos continuam estáticos. O servidor local `npm start` já oferece intervalos nativamente.
+
 ## Personalizar
 
 Edite `src/config/site.ts`. Não é necessário alterar os componentes.
@@ -90,7 +92,7 @@ O teste de temas verifica os dois modos em cinco larguras, teclado, persistênci
 
 ## Antes de publicar
 
-Configure as legendas do vídeo quando houver fala, portfólio e `siteUrl`; faça um novo build. Enquanto `siteUrl` estiver vazio, robots bloqueia indexação e o Next usa localhost nas URLs das imagens sociais. Isso é uma pendência de configuração, não um domínio público.
+O endereço público configurado é `https://mini-site-sued.pages.dev`. Se conectar um domínio próprio, atualize `siteUrl` e publique um novo build. O link do portfólio continua pendente; configure-o quando estiver disponível. Legendas reais podem ser adicionadas em `video.captionsUrl`.
 
 As dependências de runtime não apresentaram vulnerabilidades no `npm audit --omit=dev` executado durante a entrega. A árvore de lint tem um aviso de segurança transitivo em `braces` sem correção publicada na data; detalhes no QA_REPORT.md. Não aplique `npm audit fix --force`, pois a proposta automática rebaixa o pacote de lint para uma versão incompatível com a stack escolhida.
 

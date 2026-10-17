@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-16T23:03:10.712Z",
-  "base": "http://127.0.0.1:3000",
-  "duringDifference": 12.3357768145504,
-  "afterDifference": 0.23459544450110487,
+  "timestamp": "2026-10-17T19:20:44.336Z",
+  "base": "https://mini-site-sued.pages.dev",
+  "duringDifference": 12.335670576236614,
+  "afterDifference": 0.2345529491755907,
   "matchingInkPixels": 2118,
   "checks": [
     "Canvas muda de pixels ao aproximar o cursor; o nome retorna e o RAF entra em repouso depois da saída.",

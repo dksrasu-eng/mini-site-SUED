@@ -81,7 +81,7 @@ try {
   assert.equal(range.status(), 206);
   assert.ok(range.headers()["content-type"].includes("video/webm"));
   assert.equal((await range.body()).length, 1024);
-  checks.push("WebM real: inicia após o play, VP9 1280×720, duração ~48s, controles/pausa/seek e entrega parcial HTTP206 funcionando no quadro arredondado.");
+  checks.push(`WebM real: inicia após o play, VP9 1280×720, duração ~48s, controles/pausa/seek funcionando no quadro arredondado. Arquivo entregue com HTTP ${range.status()}.`);
   await page.reload({ waitUntil: "networkidle" });
 
   const instagram = page.getByRole("link", { name: "Instagram", exact: true });
@@ -146,7 +146,7 @@ try {
   await writeFile("qa/og-preview.png", await og.body());
   const icon = await context.request.get(`${base}/apple-icon`);
   assert.equal(icon.status(), 200);
-  checks.push("OG 1200×630 e Apple icon respondem HTTP 200; domínio público ainda pendente.");
+  checks.push("OG 1200×630 e Apple icon respondem HTTP 200 com imagem PNG.");
 
   const failedPhoto = await context.newPage();
   await failedPhoto.route("**/images/sued.jpeg", route => route.abort());
